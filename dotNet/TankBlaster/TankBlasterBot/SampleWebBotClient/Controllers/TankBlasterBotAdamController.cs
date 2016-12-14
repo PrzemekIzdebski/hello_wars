@@ -17,7 +17,7 @@ namespace SampleWebBotClient.Controllers
 
         public override BotMove PerformNextMove(BotArenaInfo arenaInfo)
         {
-            var aiService = new TankBlasterSimpleAIService(false, true, 99999, 8);
+            var aiService = new TankBlasterComplexAiService();
             var result = aiService.CalculateNextMove(arenaInfo);
 
             return result;

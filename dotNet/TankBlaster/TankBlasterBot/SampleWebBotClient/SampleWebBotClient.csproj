@@ -125,6 +125,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\TankBlasterComplexAiService.cs" />
     <Compile Include="Helpers\TankBlasterSimpleAIService.cs" />
     <Compile Include="Models\TankBlaster\BoardTile.cs" />
     <Compile Include="Models\TankBlaster\Bomb.cs" />
